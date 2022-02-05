@@ -4,6 +4,10 @@
 and for macOS later.
 
 ## Install
+```sh
+pip install hillstone-client
+```
+or
 ```
 pip install git+https://github.com/dankernel/hilldust.git
 ```
