@@ -13,6 +13,7 @@ sudo hillstone-client <vpn.yourdomain.com:port> <username> <password>
 ```
 **note** : If <username> or <password> contains shell speacial keywords such as '!' or '@'
 wrap up string with single quote. Ex. 'abcd!@'
+  ![image](https://user-images.githubusercontent.com/8120041/152638891-9c1390ec-1fa6-4d4f-af25-29f92f0ac673.png)
 
 ## Notes
 For now, it is only a proof-of-concept and may be not available for all the users,
