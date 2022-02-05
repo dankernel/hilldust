@@ -14,7 +14,7 @@ setup(
         url="https://github.com/dankernel/hilldust",
         author="dankernel, dsparch",
         author_email="dkdkernel@gmail.com",
-        licencs="GPL3.0",
+        license="GPL3.0",
         packages=["hillstone_client"],
         zip_safe=False,
         install_requires=[
