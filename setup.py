@@ -1,9 +1,15 @@
 
 from setuptools import setup
 
+# read the contents of your README file
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
+
 setup(
         name="hillstone-client",
-        version="1.0.0",
+        version="1.0.1",
         description="Simple Hillstone client for linux",
         url="https://github.com/dankernel/hilldust",
         author="dankernel, dsparch",
@@ -17,6 +23,8 @@ setup(
         ],
         scripts=["hillstone_client/hillstone-client"],
         python_requires='>=3.8',
+        long_description=long_description,
+        long_description_content_type='text/markdown'
 )
 
 
