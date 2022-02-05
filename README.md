@@ -1,13 +1,18 @@
-# Hilldust
+# Hilldust [![](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/) 
 (UNOFFICIAL) Yet another implementation of *Hillstone™ Secure Connect VPN Client* for Linux
 
 and for macOS later.
 
+## Install
+```
+pip install git+https://github.com/dankernel/hilldust.git
+```
 ## Usage
 ```
-./hilldust.py vpn.yourdomain.com:12345 username password
+sudo hillstone-client <vpn.yourdomain.com:port> <username> <password>
 ```
-As `vpn.yourdomain.com:12345` is your VPN provider's address.
+**note** : If <username> or <password> contains shell speacial keywords such as '!' or '@'
+wrap up string with single quote. Ex. 'abcd!@'
 
 ## Notes
 For now, it is only a proof-of-concept and may be not available for all the users,
