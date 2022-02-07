@@ -9,7 +9,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
         name="hillstone-client",
-        version="1.0.1",
+        version="1.0.2",
         description="Simple Hillstone client for linux",
         url="https://github.com/dankernel/hilldust",
         author="dankernel, dsparch",
